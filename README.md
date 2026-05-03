@@ -1,20 +1,21 @@
 # Hugo Magee
 
-Final-year Science student at UCD making a transition into data science and fintech.
+Final-year Science student at UCD, joining FundRecs in May 2026 as a GTM Systems & Analytics Intern. Building toward a career at the intersection of data, finance, and performance.
 
 ## Current Projects
 
-**OptimalAthlete** - Using machine learning to analyze my own sprint performance data (50+ races from 2022-2025). Built to figure out which training patterns actually predict faster times.
+**OptimalAthlete** — ML system trained on 18 months of my own elite sprint data, combining biomechanical principles with Random Forest and XGBoost models to predict 400m performance outcomes (R²=0.84). Results have directly shaped how I train.
 
-**Investment Journal** - Analytics pipeline that connects to my Interactive Brokers account to track portfolio performance and systematically review trading decisions.
+**TradeMetrics** — Portfolio analytics system built on 12 months of Interactive Brokers data, tracking risk-adjusted performance (Sharpe 1.35) and systematically reviewing trading decisions.
 
 ## Background
 
-Finishing my science degree at University College Dublin (June 2026) while teaching myself Python and R through applied projects. Also compete internationally in the 400m for Ireland (PB: 46.9s).
+Graduating from University College Dublin (May 2026) with a BSc in General Science. Self-taught Python, R, and SQL through applied projects in athletic performance modelling and quantitative finance.
 
-Applying to Master's programs in Data Science and Business Analytics across Europe starting September 2026, and looking for summer internship opportunities in fintech or data analytics.
+Competing internationally as a 400m sprinter for Ireland (PB: 46.95s).
 
-**Tech:** Python, R, pandas, scikit-learn, Git
+Applying to Master's programmes in Data Science and Business Analytics across Europe for September 2026 entry.
 
-**Contact:**   **LinkedIn:** [Hugo Magee](https://www.linkedin.com/in/hugo-magee-ooo/) **Email:** [Hugo.magee1@ucdconnnect.ie](mailto:Hugo.Magee1@ucdconnect.ie)
+**Tech:** Python, R, SQL, pandas, scikit-learn, XGBoost, Git
 
+**Contact:** LinkedIn: [Hugo Magee](https://linkedin.com/in/hugo-magee-ooo) · Email: hugo.magee1@ucdconnect.ie
