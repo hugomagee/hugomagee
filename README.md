@@ -8,6 +8,7 @@ GTM Systems & Analytics Intern @ [FundRecs](https://www.fundrecs.com) · BSc Sci
 
 - **[medalist](https://github.com/hugomagee/medalist)** — Harness for AI agents to autonomously solve tabular data-science competitions end-to-end; live agent placed top ~16% (est.) on a finished Kaggle Playground competition with zero human involvement.
 - **[OptimalAthlete](https://github.com/hugomagee/OptimalAthlete)** — ML system predicting 400m sprint times (R²=0.84), trained on 18 months of personal race and training data.
+- **[GrowthHog](https://github.com/hugomagee/GrowthHog)** — Systematic equity screener for 170+ global tickers: lifecycle-aware scoring, sector health, insider tracking, and portfolio optimisation, running weekly via cron on Polygon.io data.
 - **[TradeMetrics](https://github.com/hugomagee/TradeMetrics)** — Pairs trading and portfolio analytics system (Sharpe 1.35), built on 12 months of Interactive Brokers data.
 - **HorseLay** *(private)* — Automated lay-betting system for the Betfair exchange: price-shortening signal on flat racing, full backtesting engine, and live bot. Backtested on GB/IE/FR data across 2015–2024 (90.9% strike rate, small validated sample).
 
