@@ -1,21 +1,19 @@
 # Hugo Magee
 
-Final-year Science student at UCD, joining FundRecs in May 2026 as a GTM Systems & Analytics Intern. Building toward a career at the intersection of data, finance, and performance.
+Machine learning for data science, athletic performance, and quantitative finance.
 
-## Current Projects
+GTM Systems & Analytics Intern @ [FundRecs](https://www.fundrecs.com) · Final-year BSc Science @ University College Dublin · International 400m sprinter for Ireland (PB 46.95s).
 
-**OptimalAthlete** — ML system trained on 18 months of my own elite sprint data, combining biomechanical principles with Random Forest and XGBoost models to predict 400m performance outcomes (R²=0.84). Results have directly shaped how I train.
+## Featured projects
 
-**TradeMetrics** — Portfolio analytics system built on 12 months of Interactive Brokers data, tracking risk-adjusted performance (Sharpe 1.35) and systematically reviewing trading decisions.
+- **[medalist](https://github.com/hugomagee/medalist)** — Harness for AI agents to autonomously solve tabular data-science competitions end-to-end; live agent placed top ~16% (est.) on a finished Kaggle Playground competition with zero human involvement.
+- **[OptimalAthlete](https://github.com/hugomagee/OptimalAthlete)** — ML system predicting 400m sprint times (R²=0.84), trained on 18 months of personal race and training data.
+- **[TradeMetrics](https://github.com/hugomagee/TradeMetrics)** — Pairs trading and portfolio analytics system (Sharpe 1.35), built on 12 months of Interactive Brokers data.
 
-## Background
+## Tech stack
 
-Graduating from University College Dublin (May 2026) with a BSc in General Science. Self-taught Python, R, and SQL through applied projects in athletic performance modelling and quantitative finance.
+Python · R · SQL · scikit-learn · XGBoost · Streamlit
 
-Competing internationally as a 400m sprinter for Ireland (PB: 46.95s).
+## Contact
 
-Applying to Master's programmes in Data Science and Business Analytics across Europe for September 2026 entry.
-
-**Tech:** Python, R, SQL, pandas, scikit-learn, XGBoost, Git
-
-**Contact:** LinkedIn: [Hugo Magee](https://linkedin.com/in/hugo-magee-ooo) · Email: hugo.magee1@ucdconnect.ie
+[LinkedIn](https://linkedin.com/in/hugo-magee-ooo) · hugo.magee1@ucdconnect.ie
