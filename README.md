@@ -2,7 +2,7 @@
 
 Machine learning for data science, athletic performance, and quantitative finance.
 
-GTM Systems & Analytics Intern @ [FundRecs](https://www.fundrecs.com) · BSc Science, University College Dublin (2026) · International 400m sprinter for Ireland (PB 46.95s).
+MSc Business Analytics & Data Science at IE University Madrid 27 · BSc Science, University College Dublin (2026) · International 400m sprinter for Ireland (PB 46.95s).
 
 ## Featured projects
 
