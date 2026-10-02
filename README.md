@@ -8,7 +8,7 @@
 
 > I take messy real world data, turn it into something a person can act on, and check my own numbers before anyone else has to.
 
-Most of what I build starts with a raw source like CRM records, SEC filings, stock fundamentals, Kaggle datasets or my own training logs. It ends with something a team can use: a forecast, a dashboard, an alert or a ranked list. I build quickly with AI coding tools, then spend the time I save on tests and validation. Two of the projects below were rebuilt after I found errors in my own earlier results, and I published what I found.
+Most of what I build starts with a raw source like CRM records, bank transactions, SEC filings, stock fundamentals, Kaggle datasets or my own training logs. It ends with something a team can use: a forecast, a dashboard, an alert or a ranked list. I build quickly with AI coding tools, then spend the time I save on tests and validation. Two of the projects below were rebuilt after I found errors in my own earlier results, and I published what I found.
 
 ## 🔭 Now
 
@@ -19,6 +19,18 @@ Most of what I build starts with a raw source like CRM records, SEC filings, sto
 ## 🚀 Featured projects
 
 Each project follows the same shape: what goes in, what I do to it, what comes out.
+
+### 🏦 [aml-transaction-monitoring-dbt](https://github.com/hugomagee/aml-transaction-monitoring-dbt) · anti money laundering rules and a model, scored honestly
+
+**In:** IBM's synthetic AMLworld bank transactions: 5.1M transactions over 18 days, 0.10% of them laundering, with labels.
+
+**Transformation:** dbt and DuckDB models turn raw transactions into account level labels and features per time window. Five SQL detection rules (fan in and out, structuring, pass through, cycles, baseline anomaly) are tuned on days 1 to 7, then scored on days 8 to 18 and on a second dataset I never tuned on. A gradient boosted model is compared with them at equal alert volume. 26 models, 105 tests, CI on a committed sample.
+
+**Out:** the best rule (fan in and out) lifts precision about 10x over the base rate at 5 alerts per 1,000 accounts. The model beats the rules on the first dataset (24.5% precision at that volume after I removed four features that proxy the simulator, 35.4% with them) but is only level with fan in and out on the second. So the rules are a baseline, not a detector, and the data is synthetic.
+
+**Authorship:** Claude Code wrote the SQL, tests and scripts. I specified the project, designed the evaluation and reviewed the results. The repo README says so.
+
+**Stack:** Python, SQL, dbt, DuckDB, scikit-learn, GitHub Actions
 
 ### 🤖 [medalist](https://github.com/hugomagee/medalist) · an AI agent that enters ML competitions on its own
 
@@ -89,6 +101,8 @@ The code for these is private because it runs on client data. Happy to walk thro
 ![scikit learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat)
 ![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=flat)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat&logo=kibana&logoColor=white)
